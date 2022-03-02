@@ -7,7 +7,7 @@
 - **Project Name:** Trust Protocol
 - **Team Name:** Verifive
 - **Payment Address:** BTC, Ethereum (USDT/DAI) or Karura (kUSD) payment address. Please also specify the currency. (e.g. 0x8920... (DAI))
-- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 1, 2 or 3
+- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
@@ -53,14 +53,19 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Micha Roon (Research Lead)
+- Pablo Buitrago (Team Lead)
+- Mahir Şentürk (Product Owner) 
+- Ezequiel Aranda (Quality Assurance)
+- Michal Bacia (Tokenomist)
+- Alice Doe (Software Developer)
+- Bob Doe (Software Developer)
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+- **Contact Name:** Micha Roon
+- **Contact Email:** micha.roon@verifive.ch
+- **Website:** https://verifive.ch
 
 ### Legal Structure
 
