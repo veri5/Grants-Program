@@ -56,7 +56,7 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 - Micha Roon (Research Lead)
 - Pablo Buitrago (Team Lead)
 - Mahir Şentürk (Product Owner) 
-- Ezequiel Aranda (Quality Assurance)
+- Ezequiel Aranda (Quality Assurance Engineer)
 - Michal Bacia (Tokenomist)
 - Alice Doe (Software Developer)
 - Bob Doe (Software Developer)
@@ -64,8 +64,8 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 ### Contact
 
 - **Contact Name:** Micha Roon
-- **Contact Email:** micha.roon@verifive.ch
-- **Website:** https://verifive.ch
+- **Contact Email:** micha.roon@verifive.io
+- **Website:** https://verifive.io
 
 ### Legal Structure
 
@@ -80,19 +80,28 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/veri5
+- https://github.com/veri5/trust-protocol
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/drgorb
+- https://github.com/changobuitrago
+- https://github.com/<team_member_3>
+- https://github.com/<team_member_4>
+- https://github.com/<team_member_5>
+- https://github.com/<team_member_6>
+- https://github.com/<team_member_7>
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/micha/
+- https://www.linkedin.com/in/changobuitrago/
+- https://www.linkedin.com/in/mahirsenturk/
+- https://www.linkedin.com/in/ezequielnaranda/
+- https://www.linkedin.com/in/michalbacia/
+- https://www.linkedin.com/<alice_doe>
+- https://www.linkedin.com/<bob_doe>
 
 ## Development Status :open_book:
 
