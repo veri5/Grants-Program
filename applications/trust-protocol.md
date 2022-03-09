@@ -33,15 +33,15 @@ This is where digital identities or DID come in handy. If both [energyweb.org](
 
 The basic DID functionality is to associate a key pair with an identity and store this association in a publicly accessible storage. We prefer the decentralised, immutable kind; AKA a blockchain.
 
-![Untitled](Trust%20Prot%20bd18b/Untitled.png)
+![DID Registry](https://res.cloudinary.com/mhrsntrk/image/upload/v1646837908/veri5/1_mxqjum.png)
 
 Once the identities and associated keys have been stored, any DID acting as an `issuer`, can create a `verifiable credential` and send it to a `holder`. In general the holder will ask for the VC first and the issuer will respond to this request by issuing the VC.
 
-![Untitled](Trust%20Prot%20bd18b/Untitled%201.png)
+![Verifiable Credentials](https://res.cloudinary.com/mhrsntrk/image/upload/v1646837909/veri5/2_dl3bqc.png)
 
 The `holder` can then, at their leisure, create a `verifiable presentation` containing one ore more VCs and send it to an arbitrary DID which will act as the `verifier`. The verifier will access the Ledger to make sure that the keys used for signing the VCs are registered to the correct DIDs. The verifier makes sure everything is `correct`.
 
-![Untitled](Trust%20Prot%20bd18b/Untitled%202.png)
+![Verification](https://res.cloudinary.com/mhrsntrk/image/upload/v1646837909/veri5/3_m3cqn9.png)
 
 #### The Missing link
 
@@ -83,7 +83,7 @@ What is missing is a system which is DID method agnostic and allows to encode th
 
 The trust protocol enables the creation of complex compliance rules based on VCs from any DID method. The rules are stored in a blockchain and constitute a `policy graph` against which every Verifiable Presentation can be checked.
 
-![Untitled](Trust%20Prot%20bd18b/Untitled%203.png)
+![Policy Graphs](https://res.cloudinary.com/mhrsntrk/image/upload/v1646837908/veri5/4_sp3nds.png)
 
 The `policy graph` is versioned and contains full historiographic documentation. It is therefore always possible to answer the question: was this VC valid at the time of issuance?
 
@@ -94,7 +94,7 @@ With DIDs, users can authenticate without the need for an identity server but th
 
 The verification process with the Policy Graph looks just slightly different:
 
-![Untitled](Trust%20Prot%20bd18b/Untitled%204.png)
+![Verification w/Policy Graph](https://res.cloudinary.com/mhrsntrk/image/upload/v1646837908/veri5/5_vngje6.png)
 
 #### Conclusion
 
