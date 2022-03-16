@@ -14,12 +14,16 @@
 ## Project Overview :page_facing_up:
 ### Overview
 
+----
+
 Please provide the following:
 
 - If the name of your project is not descriptive, a tag line (one sentence summary).
 - A brief description of your project.
 - An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
 - An indication of why your team is interested in creating this project.
+
+----
 
 The internet has been created without a trust or identity protocol. This is probably due to the fact that the main challenge at the time was the connectivity of so many computers. Today we are faced with an issue about trust: how do you decide to trust [energyweb.org](https://hackmd.io/y52lFOTIRUigKH_QACEP5w) over [energyweb.io](https://hackmd.io/y52lFOTIRUigKH_QACEP5w)? Which one is the true Energy Web Foundation?
 
@@ -123,7 +127,7 @@ We expect the teams to already have a solid idea about your project's expected f
 - What your project is _not_ or will _not_ provide or implement
   - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
-### Ecosystem Fit (Work all together)
+### Ecosystem Fit
 
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
@@ -142,9 +146,6 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 - Pablo Buitrago (Team Lead)
 - Mahir Şentürk (Product Owner) 
 - Ezequiel Aranda (Quality Assurance Engineer)
-- Michal Bacia (Tokenomist)
-- Alice Doe (Software Developer)
-- Bob Doe (Software Developer)
 
 ### Contact
 
@@ -159,23 +160,25 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team's experience
 
+---
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
 
 If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
 
+---
 ### Team Code Repos
 
 - https://github.com/veri5
 - https://github.com/veri5/trust-protocol
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
+GitHub accounts of all team members.
 
 - https://github.com/drgorb
 - https://github.com/changobuitrago
 - https://github.com/mhrsntrk
 - https://github.com/ezequielaranda
 
-### Team LinkedIn Profiles (if available)
+### Team LinkedIn Profiles
 
 - https://www.linkedin.com/in/micha/
 - https://www.linkedin.com/in/changobuitrago/
@@ -217,33 +220,59 @@ For each milestone,
 - **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
 - **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
 
-### Milestone 1 Example — Implement Substrate Modules
+### Milestone 1 — Policy Graph Demo 
 
 - **Estimated duration:** 1 month
-- **FTE:**  2
-- **Costs:** 8,000 USD
+- **FTE:**  1
+- **Costs:** 5,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can use BDD scenarios written in Gherkin to publish a policy graph and run queries. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
+| 0e. | Article | We will publish an **article** that explains why Self-Sovereign Identity ecosystem needs policy graphs to be used as a trust framework.
+| 1. | Gherkin Interface | We will create example scenarios written in Gherkin to use it as an interface|
+| 2. | neo4j | We will create a neo4j instance to store Policy Graphs it will allow us to publish/edit Policy Graphs |
+| 3. | Graph Queries | We will create number of queries works on neo4j instance |
+
+
+### Milestone 2 — Implement Policy Graphs Into Substrate
+
+- **Estimated Duration:** 3 months
+- **FTE:**  2
+- **Costs:** 30,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can use BDD scenarios written in Gherkin to publish a policy graph to Substrate storage and edit it if necessary. |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article** that explains how we use Substrate to store and interact with Policy Graphs.
 | 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone) |  
 | 2. | Substrate module: Y | We will create a Substrate module that will... |  
 | 3. | Substrate module: Z | We will create a Substrate module that will... |  
 | 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
 
+### Milestone 3 — Interface
 
-### Milestone 2 Example — Additional features
+- **Estimated Duration:** 2 months
+- **FTE:**  2,5
+- **Costs:** 25,000 USD
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1
-- **Costs:** 4,000 USD
-
-...
-
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can interact with Policy Graphs using the custom markdown and the dApp. |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article** that explains 
+| 1. | | |
+| 2. | | |
+| 3. | | |
+| 4. | | |
 
 ## Future Plans
 
