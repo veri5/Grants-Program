@@ -214,10 +214,10 @@ If you've already started implementing your project or it is part of a larger re
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can use BDD scenarios written in Gherkin to publish a policy graph and run queries. |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can use BDD scenarios written in Gherkin to publish a `Policy Graph` and run queries. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article** that explains why Self-Sovereign Identity ecosystem needs policy graphs to be used as a trust framework.
+| 0e. | Article | We will publish an **article** that explains why Self-Sovereign Identity ecosystem needs `Policy Graphs` to be used as a trust/governance framework.
 | 1. | Gherkin Interface | We will create example scenarios written in Gherkin to use it as an interface|
 | 2. | neo4j | We will create a neo4j instance to store Policy Graphs it will allow us to publish/edit Policy Graphs |
 | 3. | Graph Queries | We will create number of queries works on neo4j instance |
@@ -232,14 +232,14 @@ If you've already started implementing your project or it is part of a larger re
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can use BDD scenarios written in Gherkin to publish a policy graph to Substrate storage and edit it if necessary. |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can use BDD scenarios written in Gherkin to publish a `Policy Graph` to Substrate storage and edit it if necessary. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article** that explains how we use Substrate to store and interact with Policy Graphs.
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| 0e. | Article | We will publish an **article** that explains how we use Substrate to store and interact with `Policy Graphs`.
+| 1. | Substrate module: X |  |  
+| 2. | Substrate module: Y |  |  
+| 3. | Substrate module: Z |  |  
+| 4. | Substrate chain |  |  
 
 ### Milestone 3 — Interface
 
@@ -250,29 +250,28 @@ If you've already started implementing your project or it is part of a larger re
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can interact with Policy Graphs using the custom markdown and the dApp. |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can interact with `Policy Graphs` using the custom markdown and the dApp. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article** that explains 
-| 1. | | |
+| 0e. | Article | We will publish an **article** that explains how to apply real-world scenarios into `Policy Graphs`.
+| 1. | UI/UX Design & Wireframes| We would like to simplify user interaction on the UI level by researching on UX topics |
 | 2. | | |
 | 3. | | |
 | 4. | | |
 
 ## Future Plans
 
-Please include here
+#### Short Term Objectives
+-
+-
 
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+#### Long Term Objectives
+-
+-
 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?:** Web3 Foundation Website
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+At the same time, we are applying to [Substrate Builder's Program](https://substrate.io/ecosystem/substrate-builders-program/) to get technical support grant on `Chains Track` from the Substrate team. 
