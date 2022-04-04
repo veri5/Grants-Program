@@ -178,6 +178,10 @@ GitHub accounts of all team members.
 - https://github.com/mhrsntrk
 - https://github.com/ezequielaranda
 
+Substrate.stackexchange accounts of all team members.
+
+- https://substrate.stackexchange.com/users/205/pablo-buitrago
+
 ### Team LinkedIn Profiles
 
 - https://www.linkedin.com/in/micha/
