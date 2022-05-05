@@ -6,7 +6,7 @@
 
 - **Project Name:** The Trust Protocol
 - **Team Name:** Verifive
-- **Payment Address:** BTC, Ethereum (USDT/DAI) or Karura (kUSD) payment address. Please also specify the currency. (e.g. 0x8920... (DAI))
+- **Payment Address:** Ethereum payment address: `0xbf9a4eCC4151f28C03100bA2C0555a3D3e439e69`; Currency: `DAI`.
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
